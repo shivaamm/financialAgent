@@ -145,13 +145,13 @@ Making finance fun:
 ```bash
 # Clone repository
 git clone https://github.com/your-org/project-raseed.git
-cd project-raseed
+cd financialAgent
 
 # Backend setup
 cd backend
-pip install -r requirements.txt
+pip3.11 install -r requirements.txt
 # Add your GOOGLE_GEMINI_KEY to .env
-python server.py
+python3.11 server.py
 
 # Frontend setup
 cd ../frontend
