@@ -5,7 +5,7 @@ from firebase_admin import credentials, firestore, storage
 if not firebase_admin._apps:
     cred = credentials.Certificate('serviceAccountKey.json')
     firebase_admin.initialize_app(cred, {
-        'storageBucket': 'raseed-d6eee.firebasestorage.app'
+        'storageBucket': 'raseed-e5140.firebasestorage.app'
     })
 
 db = firestore.client()

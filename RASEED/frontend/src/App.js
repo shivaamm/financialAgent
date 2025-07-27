@@ -4,7 +4,7 @@ import axios from "axios";
 import Chatbot from "./Chatbot";
 
 // const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || "http://localhost:8080";
-const BACKEND_URL = "https://agenticai-109221590536.europe-west1.run.app";
+const BACKEND_URL = "https://agentraseedbackend-318169846273.europe-west1.run.app";
 const API = `${BACKEND_URL}/api`;
 
 
