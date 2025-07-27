@@ -21,7 +21,7 @@ load_dotenv('/app/backend/.env')
 
 # Get backend URL from frontend env
 # BACKEND_URL = os.environ.get('REACT_APP_BACKEND_URL', "http://localhost:8080")
-BACKEND_URL = "https://agentraseedbackend-318169846273.europe-west1.run.app"
+BACKEND_URL = "https://financialagentbackend-318169846273.europe-west1.run.app"
 API_BASE = f"{BACKEND_URL}/api"
 
 # MongoDB connection details
