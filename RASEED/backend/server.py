@@ -1064,7 +1064,6 @@ async def get_enhanced_dashboard():
 app.include_router(api_router, prefix="/api")
 
 origins = [
-    "http://localhost:3001",
     "https://financialagent-109221590536.europe-west1.run.app"
 ]
 
