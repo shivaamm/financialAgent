@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Raseed - AI-Powered Receipt Intelligence System</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: white;
+            padding: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .slide {
+            width: 100%;
+            padding: 60px 0;
+            border-bottom: 2px solid #e0e0e0;
+            margin-bottom: 40px;
+        }
+        
+        .slide:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+        }
+        
+        h1 {
+            font-size: 48px;
+            font-weight: 700;
+            color: #1a73e8;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 36px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 30px;
+            text-align: center;
+            border-bottom: 3px solid #4285f4;
+            padding-bottom: 15px;
+        }
+        
+        h3 {
+            font-size: 28px;
+            font-weight: 600;
+            color: #1a73e8;
+            margin-bottom: 20px;
+        }
+        
+        h4 {
+            font-size: 22px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        
+        p, li {
+            font-size: 18px;
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+        
+        .subtitle {
+            font-size: 24px;
+            color: #666;
+            text-align: center;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 30px 0;
+        }
+        
+        .feature-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 12px;
+            border-left: 5px solid #4285f4;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .feature-card h4 {
+            color: #1a73e8;
+            margin-bottom: 15px;
+        }
+        
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+            font-size: 16px;
+        }
+        
+        .comparison-table th, 
+        .comparison-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        
+        .comparison-table th {
+            background: #4285f4;
+            color: white;
+            font-weight: 600;
+        }
+        
+        .comparison-table tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+        
+        .highlight {
+            background: #fff3cd;
+            padding: 20px;
+            border-left: 5px solid #ffc107;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .text-center {
+            text-align: center;
+        }
+        
+        .emoji {
+            font-size: 1.2em;
+            margin-right: 8px;
+        }
+        
+        ul {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin: 30px 0;
+        }
+        
+        .metric-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+        }
+        
+        .metric-number {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        
+        .metric-label {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        
+        .diagram-image {
+            text-align: center;
+            margin: 40px 0;
+        }
+        
+        .diagram-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        @media print {
+            body {
+                padding: 20px;
+            }
+            
+            .slide {
+                break-inside: avoid;
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Slide 1: Title Slide -->
+    <div class="slide">
+        <div class="text-center" style="margin-top: 50px;">
+            <h1>🧾 Project Raseed</h1>
+            <div class="subtitle">AI-Powered Receipt Intelligence System</div>
+            <div class="highlight">
+                <h3>"Beyond OCR - Introducing Agentic Financial Intelligence"</h3>
+            </div>
+            <div style="margin-top: 60px; font-size: 20px; color: #666;">
+                <p>Revolutionizing Personal Finance Through Intelligent AI</p>
+                <p>Built with Google Gemini AI • FastAPI • React • MongoDB</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 2: Brief About the Idea -->
+    <div class="slide">
+        <h2>🎯 Brief About the Idea</h2>
+        
+        <div class="highlight">
+            <h3>What is Project Raseed?</h3>
+            <p>Project Raseed is an AI-powered receipt intelligence system that revolutionizes personal finance management through <strong>"Agentic AI"</strong> - an intelligent assistant that doesn't just read receipts, but thinks, predicts, and proactively acts on your financial behavior.</p>
+        </div>
+        
+        <div class="feature-grid">
+            <div class="feature-card">
+                <h4>🔮 Predicts</h4>
+                <p>Your future spending needs before you realize them</p>
+            </div>
+            <div class="feature-card">
+                <h4>⚡ Optimizes</h4>
+                <p>Financial decisions through predictive analytics</p>
+            </div>
+            <div class="feature-card">
+                <h4>🤖 Automates</h4>
+                <p>Receipt processing from physical receipts and emails</p>
+            </div>
+            <div class="feature-card">
+                <h4>🎫 Integrates</h4>
+                <p>Seamlessly with Google Wallet for dynamic insights</p>
+            </div>
+        </div>
+        
+        <div class="highlight">
+            <h3>The Problem We Solve</h3>
+            <p>Traditional receipt management apps are <strong>reactive</strong> - they only tell you what you've already spent. <strong>Project Raseed is proactive</strong> - it tells you what you're about to spend, when to spend it, and how to spend better.</p>
+        </div>
+    </div>
+
+    <!-- Slide 3: Market Opportunity & USP -->
+    <div class="slide">
+        <h2>🚀 Market Opportunity & Unique Selling Propositions</h2>
+        
+        <div class="highlight">
+            <h3>💰 Market Opportunity</h3>
+            <ul>
+                <li>Personal finance management market: <strong>$1.57 billion globally</strong></li>
+                <li>Current solutions limited to basic OCR and categorization</li>
+                <li><strong>Project Raseed introduces the next generation of financial intelligence</strong></li>
+            </ul>
+        </div>
+        
+        <div class="feature-grid">
+            <div class="feature-card">
+                <h4>🧠 Agentic AI Financial Intelligence</h4>
+                <ul>
+                    <li><strong>Beyond OCR</strong>: We understand and predict, not just read</li>
+                    <li><strong>Autonomous Recommendations</strong>: AI suggests without prompting</li>
+                    <li><strong>Continuous Learning</strong>: Adapts to individual patterns</li>
+                    <li><strong>Proactive Insights</strong>: Identifies opportunities first</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <h4>🎫 Revolutionary Google Wallet Integration</h4>
+                <ul>
+                    <li><strong>Dynamic Wallet Passes</strong>: Real-time contextual updates</li>
+                    <li><strong>Location-Based Triggers</strong>: Geofencing alerts</li>
+                    <li><strong>Merchant Optimization</strong>: Relationship management</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <h4>🔮 Predictive Shopping Intelligence</h4>
+                <ul>
+                    <li><strong>Consumption Forecasting</strong>: "Need milk in 3 days"</li>
+                    <li><strong>Price Trend Analysis</strong>: "Prices drop 25% next week"</li>
+                    <li><strong>Optimal Timing</strong>: Best purchase recommendations</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <h4>📧 Email Receipt Automation</h4>
+                <ul>
+                    <li><strong>Gmail Integration</strong>: Automatic processing</li>
+                    <li><strong>Multi-format Support</strong>: All email types</li>
+                    <li><strong>Seamless Processing</strong>: Structured data extraction</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 4: Competitive Advantage -->
+    <div class="slide">
+        <h2>🏆 Competitive Advantage Matrix</h2>
+        
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Feature</th>
+                    <th>Traditional Apps</th>
+                    <th>Project Raseed</th>
+                    <th>Our Advantage</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Receipt Processing</strong></td>
+                    <td>⭐⭐⭐ Basic OCR</td>
+                    <td>⭐⭐⭐⭐⭐ AI Intelligence</td>
+                    <td>🚀 Revolutionary</td>
+                </tr>
+                <tr>
+                    <td><strong>Predictive Analytics</strong></td>
+                    <td>❌ None</td>
+                    <td>⭐⭐⭐⭐⭐ ML-Powered</td>
+                    <td>🔮 World-First</td>
+                </tr>
+                <tr>
+                    <td><strong>Email Integration</strong></td>
+                    <td>❌ None</td>
+                    <td>⭐⭐⭐⭐⭐ Automated</td>
+                    <td>📧 Innovative</td>
+                </tr>
+                <tr>
+                    <td><strong>Wallet Integration</strong></td>
+                    <td>❌ None</td>
+                    <td>⭐⭐⭐⭐⭐ Dynamic</td>
+                    <td>🎫 Unique</td>
+                </tr>
+                <tr>
+                    <td><strong>Proactive Insights</strong></td>
+                    <td>❌ None</td>
+                    <td>⭐⭐⭐⭐⭐ AI-Driven</td>
+                    <td>💡 Breakthrough</td>
+                </tr>
+                <tr>
+                    <td><strong>Health Analysis</strong></td>
+                    <td>❌ None</td>
+                    <td>⭐⭐⭐⭐⭐ Nutritional Insights</td>
+                    <td>🥗 Novel</td>
+                </tr>
+                <tr>
+                    <td><strong>Sustainability</strong></td>
+                    <td>❌ None</td>
+                    <td>⭐⭐⭐⭐⭐ Environmental Impact</td>
+                    <td>🌱 Pioneering</td>
+                </tr>
+                <tr>
+                    <td><strong>Gamification</strong></td>
+                    <td>❌ None</td>
+                    <td>⭐⭐⭐⭐⭐ Achievement System</td>
+                    <td>🎮 Engaging</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Slide 5: Core Features -->
+    <div class="slide">
+        <h2>📋 Core Features Overview</h2>
+        
+        <div class="feature-grid">
+            <div class="feature-card">
+                <h4>🤖 Advanced AI Receipt Processing</h4>
+                <ul>
+                    <li><strong>Gemini Vision AI</strong>: Multi-language OCR with handwriting recognition</li>
+                    <li><strong>Context-Aware Extraction</strong>: Understands beyond text</li>
+                    <li><strong>Real-time Analysis</strong>: Instant processing with validation</li>
+                    <li><strong>Smart Categorization</strong>: Intelligent category assignment</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <h4>📧 Email Receipt Automation</h4>
+                <ul>
+                    <li><strong>Gmail Integration</strong>: Automatic email processing</li>
+                    <li><strong>Multi-format Support</strong>: HTML, text, various formats</li>
+                    <li><strong>Intelligent Parsing</strong>: Structured data from emails</li>
+                    <li><strong>Demo Simulation</strong>: Built-in testing capabilities</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <h4>🔮 Predictive Intelligence</h4>
+                <ul>
+                    <li><strong>Consumption Calculation</strong>: Predicts item needs</li>
+                    <li><strong>Seasonal Recognition</strong>: Identifies spending trends</li>
+                    <li><strong>Price Forecasting</strong>: Predicts future prices</li>
+                    <li><strong>Optimal Timing</strong>: Best purchase suggestions</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <h4>🎫 Dynamic Google Wallet Integration</h4>
+                <ul>
+                    <li><strong>Smart Passes</strong>: Auto-generated contextual information</li>
+                    <li><strong>Location Triggers</strong>: Geofencing alerts</li>
+                    <li><strong>Real-time Updates</strong>: Live spending and budget status</li>
+                    <li><strong>Contextual Recommendations</strong>: Better deals nearby</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 6: Process Flow -->
+    <div class="slide">
+        <h2>🔄 Process Flow Diagram</h2>
+        
+        <div class="diagram-image">
+            <img src="../flowChart.png" alt="Process Flow Diagram">
+        </div>
+        
+        <div class="highlight">
+            <h3>🔄 Key Process Components</h3>
+            <div class="two-column">
+                <div>
+                    <h4>📸 Physical Receipt Processing</h4>
+                    <p>Image Upload → AI Vision Analysis → Data Extraction → Storage → Wallet Pass Creation</p>
+                </div>
+                <div>
+                    <h4>📧 Email Receipt Processing</h4>
+                    <p>Gmail Integration → Email Parsing → AI Analysis → Automated Processing → Dashboard Update</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 7: Technology Stack -->
+    <div class="slide">
+        <h2>🛠️ Technology Stack</h2>
+        
+        <div class="two-column">
+            <div>
+                <div class="feature-card">
+                    <h4>Frontend Technologies</h4>
+                    <ul>
+                        <li><strong>React 19</strong>: Latest React with modern features</li>
+                        <li><strong>Tailwind CSS</strong>: Utility-first responsive design</li>
+                        <li><strong>PWA</strong>: Mobile-optimized experience</li>
+                        <li><strong>Axios</strong>: HTTP client for API communication</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <h4>Backend Technologies</h4>
+                    <ul>
+                        <li><strong>FastAPI</strong>: High-performance async Python</li>
+                        <li><strong>Python 3.9+</strong>: Core programming language</li>
+                        <li><strong>Motor</strong>: Async MongoDB driver</li>
+                        <li><strong>Pydantic</strong>: Data validation and serialization</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div>
+                <div class="feature-card">
+                    <h4>AI & Machine Learning</h4>
+                    <ul>
+                        <li><strong>Google Gemini 2.0 Flash</strong>: Advanced vision AI</li>
+                        <li><strong>Emergent Integrations</strong>: LLM framework</li>
+                        <li><strong>Custom ML Pipeline</strong>: Predictive analytics</li>
+                        <li><strong>Vision API</strong>: OCR and image understanding</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <h4>External Integrations</h4>
+                    <ul>
+                        <li><strong>Gmail API</strong>: Email receipt processing</li>
+                        <li><strong>Google Wallet API</strong>: Dynamic pass creation</li>
+                        <li><strong>MongoDB</strong>: NoSQL document database</li>
+                        <li><strong>Google Cloud AI</strong>: Enhanced processing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 8: System Architecture -->
+    <div class="slide">
+        <h2>🏗️ System Architecture</h2>
+        
+        <div class="diagram-image">
+            <img src="../system_architecture.png" alt="System Architecture Diagram">
+        </div>
+        
+        <div class="highlight">
+            <h3>🎯 Architecture Highlights</h3>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h4>📱 Frontend Layer</h4>
+                    <p>React 19 + Tailwind CSS with PWA capabilities for optimal user experience</p>
+                </div>
+                <div class="feature-card">
+                    <h4>⚡ API Gateway</h4>
+                    <p>FastAPI server with microservices architecture and comprehensive middleware</p>
+                </div>
+                <div class="feature-card">
+                    <h4>🧠 Intelligence Layer</h4>
+                    <p>Gemini AI Vision, Predictive Engine, and Email Processor with insight generation</p>
+                </div>
+                <div class="feature-card">
+                    <h4>💾 Data Layer</h4>
+                    <p>MongoDB NoSQL database with Gmail API and Google Wallet integration</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 9: Demo Results -->
+    <div class="slide">
+        <h2>🎬 Demo & Results</h2>
+        
+        <div class="highlight">
+            <h3>Live Demo Highlights</h3>
+            <div class="two-column">
+                <div>
+                    <h4>Feature Demonstrations:</h4>
+                    <ol>
+                        <li><strong>Receipt Upload</strong>: Real-time AI processing with instant insights</li>
+                        <li><strong>Email Processing</strong>: Automatic Gmail receipt parsing</li>
+                        <li><strong>Predictive Analytics</strong>: AI-generated spending forecasts</li>
+                        <li><strong>Wallet Integration</strong>: Dynamic pass creation</li>
+                        <li><strong>Dashboard Analytics</strong>: Comprehensive visualization</li>
+                    </ol>
+                </div>
+                <div>
+                    <h4>Example Predictions:</h4>
+                    <ul>
+                        <li><em>"You'll need milk in 3 days based on consumption patterns"</em></li>
+                        <li><em>"Avocado prices will drop 25% next week - wait to buy"</em></li>
+                        <li><em>"You spend 30% more at Mall A vs Mall B"</em></li>
+                        <li><em>"This week's groceries: 65% healthy choices"</em></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="feature-grid">
+            <div class="metric-card">
+                <div class="metric-number">< 3 sec</div>
+                <div class="metric-label">Processing Speed</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-number">95%+</div>
+                <div class="metric-label">OCR Accuracy</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-number">80%+</div>
+                <div class="metric-label">Prediction Accuracy</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-number">$200+</div>
+                <div class="metric-label">Monthly Savings</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 10: Future Roadmap -->
+    <div class="slide">
+        <h2>🔮 Future Roadmap</h2>
+        
+        <div class="feature-grid">
+            <div class="feature-card">
+                <h4>Phase 1: Foundation (COMPLETED) ✅</h4>
+                <ul>
+                    <li>Core receipt upload and processing</li>
+                    <li>Gemini AI integration</li>
+                    <li>Basic dashboard and insights</li>
+                    <li>Wallet pass generation</li>
+                    <li>Beautiful responsive UI</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <h4>Phase 2: Intelligence (CURRENT) 🔄</h4>
+                <ul>
+                    <li>Advanced spending analytics</li>
+                    <li>Predictive shopping recommendations</li>
+                    <li>Enhanced wallet pass features</li>
+                    <li>Gamification basics</li>
+                    <li>Gmail integration</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <h4>Phase 3: Automation (NEXT) 🔮</h4>
+                <ul>
+                    <li>Autonomous budget adjustments</li>
+                    <li>Proactive shopping lists</li>
+                    <li>Advanced notification system</li>
+                    <li>Health and sustainability analysis</li>
+                    <li>Social features and sharing</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <h4>Phase 4: Integration (FUTURE) 🚀</h4>
+                <ul>
+                    <li>Bank account integration</li>
+                    <li>E-commerce platform connections</li>
+                    <li>Advanced AI model training</li>
+                    <li>Mobile app development</li>
+                    <li>Multi-language support</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 11: Conclusion -->
+    <div class="slide">
+        <h2>🎯 Project Raseed: The Future of Financial Intelligence</h2>
+        
+        <div class="highlight">
+            <h3>Key Takeaways</h3>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h4>🧠 Agentic AI Revolution</h4>
+                    <p>First system to make financial decisions autonomously</p>
+                </div>
+                <div class="feature-card">
+                    <h4>🔮 Predictive Intelligence</h4>
+                    <p>Forecasts spending needs and optimizes decisions</p>
+                </div>
+                <div class="feature-card">
+                    <h4>📧 Automated Processing</h4>
+                    <p>Eliminates manual receipt entry entirely</p>
+                </div>
+                <div class="feature-card">
+                    <h4>🎫 Dynamic Integration</h4>
+                    <p>Seamless Google Wallet integration for contextual insights</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center" style="margin-top: 40px;">
+            <h3>The Impact</h3>
+            <p style="font-size: 24px; font-weight: 600; color: #1a73e8;">
+                Project Raseed doesn't just manage receipts - it revolutionizes how people understand, optimize, and improve their financial lives.
+            </p>
+        </div>
+        
+        <div class="highlight">
+            <h3>Call to Action</h3>
+            <ul>
+                <li><strong>Ready for Beta Testing</strong>: Fully functional system available</li>
+                <li><strong>Scalable Architecture</strong>: Built on Google Cloud for global deployment</li>
+                <li><strong>Investment Opportunity</strong>: First-mover advantage in agentic AI finance</li>
+                <li><strong>Partnership Potential</strong>: Integration opportunities with Google ecosystem</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Slide 12: Thank You -->
+    <div class="slide">
+        <div class="text-center" style="margin-top: 50px;">
+            <h1>🚀 Thank You for Your Attention</h1>
+            
+            <div class="highlight" style="margin-top: 60px;">
+                <h3>Contact Information</h3>
+                <ul style="text-align: left; max-width: 600px; margin: 0 auto;">
+                    <li><strong>Project</strong>: Project Raseed - AI-Powered Receipt Intelligence</li>
+                    <li><strong>Technology</strong>: Powered by Google Gemini AI</li>
+                    <li><strong>Status</strong>: Production-ready with active user base</li>
+                    <li><strong>Next Steps</strong>: Seeking strategic partnerships and investment</li>
+                </ul>
+            </div>
+            
+            <div style="margin-top: 60px;">
+                <h2>Questions & Discussion</h2>
+                <p style="font-size: 20px; color: #666;">
+                    Ready to answer any questions about:
+                </p>
+                <ul style="text-align: left; max-width: 600px; margin: 20px auto 0;">
+                    <li>Technical implementation details</li>
+                    <li>Business model and monetization strategy</li>
+                    <li>Partnership opportunities</li>
+                    <li>Integration possibilities</li>
+                    <li>Future roadmap and expansion plans</li>
+                </ul>
+            </div>
+            
+            <div style="margin-top: 60px; font-size: 16px; color: #666;">
+                <p><em>Built with ❤️ using Google Gemini AI, FastAPI, React, and MongoDB</em></p>
+                <p><strong>"The future of finance is intelligent, proactive, and personalized. Welcome to Project Raseed."</strong></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

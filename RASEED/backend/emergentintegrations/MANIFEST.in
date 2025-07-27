@@ -1,0 +1,7 @@
+include LICENSE
+include README.md
+include requirements-dev.txt
+include setup_payments.py
+include setup_llm.py
+recursive-include emergentintegrations/*/docs *.md
+recursive-include emergentintegrations/*/*/docs *.md

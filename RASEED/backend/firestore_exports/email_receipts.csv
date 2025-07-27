@@ -1,0 +1,1268 @@
+category,created_at,email_content,email_id,id,insights,items,merchant_name,processed,received_date,savings_suggestions,sender,source,subject,total_amount
+Transport,2025-07-22 08:12:03.579087+00:00,"
+                Thanks for riding with Uber!
+                
+                Trip Details:
+                Date: 2025-07-21 23:42:59
+                From: Home
+                To: Downtown Office
+                Distance: 5.2 miles
+                Duration: 18 minutes
+                
+                Fare Breakdown:
+                Base Fare:                        $2.50
+                Distance:                         $8.75
+                Time:                            $3.20
+                Booking Fee:                      $2.55
+                
+                Total:                           $17.00
+                Payment: Visa ****1234
+                ",email-1a90000a-13f1-4c74-a2ae-4378c5e6e688,email-1a90000a-13f1-4c74-a2ae-4378c5e6e688,"['Spent $17.00 on an Uber trip from Home to Downtown Office.', 'Trip occurred late at night (11:42 PM) on July 21, 2025.']","[{'name': 'Base Fare', 'price': 2.5, 'quantity': 1}, {'name': 'Distance', 'price': 8.75, 'quantity': 1}, {'name': 'Time', 'price': 3.2, 'quantity': 1}, {'name': 'Booking Fee', 'price': 2.55, 'quantity': 1}]",Uber,True,2025-07-21 23:42:59.498065+00:00,"['Consider using Uber Pool or other shared ride options to reduce the fare.', 'If the trip is a regular commute, explore public transportation or carpooling for potential savings.']",receipts@uber.com,email,Trip Receipt,17.0
+Shopping,2025-07-26 14:59:41.481908+00:00,"
+                Your order has been shipped!
+                
+                Order #: 123-4567890-1234567
+                Order Date: 2025-07-25 15:05:39
+                
+                Items Ordered:
+                1. Wireless Bluetooth Headphones   $79.99
+                2. Phone Case - Clear              $12.99
+                3. USB Cable - 6ft                 $8.99
+                
+                Subtotal:                         $101.97
+                Shipping:                          FREE
+                Tax:                              $8.16
+                Total:                           $110.13
+                
+                Expected Delivery: Tomorrow
+                ",email-a4936a7d-4d52-4638-a0b0-ebc124170817,email-a4936a7d-4d52-4638-a0b0-ebc124170817,"['Purchased electronics accessories from Amazon.', 'Order placed in the afternoon.']","[{'name': 'Wireless Bluetooth Headphones', 'price': 79.99, 'quantity': 1}, {'name': 'Phone Case - Clear', 'price': 12.99, 'quantity': 1}, {'name': 'USB Cable - 6ft', 'price': 8.99, 'quantity': 1}]",Amazon,True,2025-07-25 15:05:39.899794+00:00,"['Compare prices of similar items on different platforms or wait for sales events to potentially save money on electronics.', 'Consider buying generic brand USB cables to save money.']",orders@amazon.com,email,Your Amazon Order Confirmation,110.13
+Health,2025-07-26T23:54:29.240212,"
+        Thanks for shopping with Best Buy!
+        
+        Order Details:
+        Date: 2025-07-14T00:00:00
+        
+        Items Ordered:
+        1. Vitamins   $15.99
+        2. Protein Powder   $29.99
+        
+        Total: $45.98
+        ",cdccecda-d059-4ae5-9c0c-75352ac4a65e,cdccecda-d059-4ae5-9c0c-75352ac4a65e,['Spent $45.98 on Health items from Best Buy.'],"[{'name': 'Vitamins', 'price': 15.99}, {'name': 'Protein Powder', 'price': 29.99}]",Best Buy,True,2025-07-14T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Best Buy@receipts.com,email,Order Confirmation,45.98
+Utilities,2025-07-26T23:54:29.240433,"
+        Thanks for shopping with Amazon!
+        
+        Order Details:
+        Date: 2025-05-02T00:00:00
+        
+        Items Ordered:
+        1. Electricity Bill   $100.0
+        2. Water Bill   $50.0
+        
+        Total: $150.0
+        ",f0480b5d-5cf0-4121-b9cc-c649d70c23e4,f0480b5d-5cf0-4121-b9cc-c649d70c23e4,['Spent $150.0 on Utilities items from Amazon.'],"[{'name': 'Electricity Bill', 'price': 100.0}, {'name': 'Water Bill', 'price': 50.0}]",Amazon,True,2025-05-02T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Amazon@receipts.com,email,Order Confirmation,150.0
+Dining,2025-07-26T23:54:29.240486,"
+        Thanks for shopping with Lyft!
+        
+        Order Details:
+        Date: 2025-01-14T00:00:00
+        
+        Items Ordered:
+        1. Dinner   $50.0
+        2. Lunch   $30.0
+        
+        Total: $80.0
+        ",14a8982b-8c59-49c1-bc9f-13353fbe9d79,14a8982b-8c59-49c1-bc9f-13353fbe9d79,['Spent $80.0 on Dining items from Lyft.'],"[{'name': 'Dinner', 'price': 50.0}, {'name': 'Lunch', 'price': 30.0}]",Lyft,True,2025-01-14T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Lyft@receipts.com,email,Order Confirmation,80.0
+Utilities,2025-07-26T23:54:29.240534,"
+        Thanks for shopping with Target!
+        
+        Order Details:
+        Date: 2025-03-02T00:00:00
+        
+        Items Ordered:
+        1. Electricity Bill   $100.0
+        2. Water Bill   $50.0
+        
+        Total: $150.0
+        ",e286c553-9aae-4eec-8532-10838732245d,e286c553-9aae-4eec-8532-10838732245d,['Spent $150.0 on Utilities items from Target.'],"[{'name': 'Electricity Bill', 'price': 100.0}, {'name': 'Water Bill', 'price': 50.0}]",Target,True,2025-03-02T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Target@receipts.com,email,Order Confirmation,150.0
+Transport,2025-07-26T23:54:29.240578,"
+        Thanks for shopping with Apple Store!
+        
+        Order Details:
+        Date: 2025-06-14T00:00:00
+        
+        Items Ordered:
+        1. Taxi Ride   $20.0
+        2. Bus Pass   $30.0
+        
+        Total: $50.0
+        ",fccefdd5-78bc-409f-9b97-872e558bed5d,fccefdd5-78bc-409f-9b97-872e558bed5d,['Spent $50.0 on Transport items from Apple Store.'],"[{'name': 'Taxi Ride', 'price': 20.0}, {'name': 'Bus Pass', 'price': 30.0}]",Apple Store,True,2025-06-14T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Apple Store@receipts.com,email,Order Confirmation,50.0
+Food,2025-07-26T23:54:29.240612,"
+        Thanks for shopping with Costco!
+        
+        Order Details:
+        Date: 2025-02-18T00:00:00
+        
+        Items Ordered:
+        1. Almond Milk   $3.99
+        2. Organic Apples   $5.99
+        
+        Total: $9.98
+        ",da753de3-c1e8-41e2-9498-6bfdd159176e,da753de3-c1e8-41e2-9498-6bfdd159176e,['Spent $9.98 on Food items from Costco.'],"[{'name': 'Almond Milk', 'price': 3.99}, {'name': 'Organic Apples', 'price': 5.99}]",Costco,True,2025-02-18T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Costco@receipts.com,email,Order Confirmation,9.98
+Dining,2025-07-26T23:54:29.240646,"
+        Thanks for shopping with Walmart!
+        
+        Order Details:
+        Date: 2025-05-19T00:00:00
+        
+        Items Ordered:
+        1. Dinner   $50.0
+        2. Lunch   $30.0
+        
+        Total: $80.0
+        ",25843010-677d-472d-9902-f0365c0c7f14,25843010-677d-472d-9902-f0365c0c7f14,['Spent $80.0 on Dining items from Walmart.'],"[{'name': 'Dinner', 'price': 50.0}, {'name': 'Lunch', 'price': 30.0}]",Walmart,True,2025-05-19T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Walmart@receipts.com,email,Order Confirmation,80.0
+Food,2025-07-26T23:54:29.240682,"
+        Thanks for shopping with Apple Store!
+        
+        Order Details:
+        Date: 2025-01-12T00:00:00
+        
+        Items Ordered:
+        1. Organic Apples   $5.99
+        2. Almond Milk   $3.99
+        
+        Total: $9.98
+        ",52b322a4-a342-4589-b43d-d99de1e34bd9,52b322a4-a342-4589-b43d-d99de1e34bd9,['Spent $9.98 on Food items from Apple Store.'],"[{'name': 'Organic Apples', 'price': 5.99}, {'name': 'Almond Milk', 'price': 3.99}]",Apple Store,True,2025-01-12T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Apple Store@receipts.com,email,Order Confirmation,9.98
+Clothing,2025-07-26T23:54:29.240726,"
+        Thanks for shopping with Walmart!
+        
+        Order Details:
+        Date: 2025-07-03T00:00:00
+        
+        Items Ordered:
+        1. T-Shirt   $19.99
+        2. Jeans   $49.99
+        
+        Total: $69.98
+        ",e6f8012e-4eb3-49d6-afc6-4623130a9f55,e6f8012e-4eb3-49d6-afc6-4623130a9f55,['Spent $69.98 on Clothing items from Walmart.'],"[{'name': 'T-Shirt', 'price': 19.99}, {'name': 'Jeans', 'price': 49.99}]",Walmart,True,2025-07-03T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Walmart@receipts.com,email,Order Confirmation,69.98
+Shopping,2025-07-26T23:54:29.240762,"
+        Thanks for shopping with Costco!
+        
+        Order Details:
+        Date: 2025-01-21T00:00:00
+        
+        Items Ordered:
+        1. Watch   $199.99
+        2. Shoes   $89.99
+        
+        Total: $289.98
+        ",44984b71-3732-4b4f-bcd4-33e3f162f058,44984b71-3732-4b4f-bcd4-33e3f162f058,['Spent $289.98 on Shopping items from Costco.'],"[{'name': 'Watch', 'price': 199.99}, {'name': 'Shoes', 'price': 89.99}]",Costco,True,2025-01-21T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Costco@receipts.com,email,Order Confirmation,289.98
+Utilities,2025-07-26T23:54:29.240795,"
+        Thanks for shopping with Walmart!
+        
+        Order Details:
+        Date: 2025-03-04T00:00:00
+        
+        Items Ordered:
+        1. Electricity Bill   $100.0
+        2. Water Bill   $50.0
+        
+        Total: $150.0
+        ",919b34d2-7178-4643-b54b-06c873e3b8be,919b34d2-7178-4643-b54b-06c873e3b8be,['Spent $150.0 on Utilities items from Walmart.'],"[{'name': 'Electricity Bill', 'price': 100.0}, {'name': 'Water Bill', 'price': 50.0}]",Walmart,True,2025-03-04T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Walmart@receipts.com,email,Order Confirmation,150.0
+Shopping,2025-07-26T23:54:29.240825,"
+        Thanks for shopping with Whole Foods!
+        
+        Order Details:
+        Date: 2025-05-24T00:00:00
+        
+        Items Ordered:
+        1. Shoes   $89.99
+        2. Watch   $199.99
+        
+        Total: $289.98
+        ",754b50b9-65b4-49b4-ae4c-96d57fdd7905,754b50b9-65b4-49b4-ae4c-96d57fdd7905,['Spent $289.98 on Shopping items from Whole Foods.'],"[{'name': 'Shoes', 'price': 89.99}, {'name': 'Watch', 'price': 199.99}]",Whole Foods,True,2025-05-24T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Whole Foods@receipts.com,email,Order Confirmation,289.98
+Health,2025-07-26T23:54:29.240857,"
+        Thanks for shopping with Amazon!
+        
+        Order Details:
+        Date: 2025-06-05T00:00:00
+        
+        Items Ordered:
+        1. Vitamins   $15.99
+        2. Protein Powder   $29.99
+        
+        Total: $45.98
+        ",74a9dedd-5dd3-4159-95a6-4abbe7a232ce,74a9dedd-5dd3-4159-95a6-4abbe7a232ce,['Spent $45.98 on Health items from Amazon.'],"[{'name': 'Vitamins', 'price': 15.99}, {'name': 'Protein Powder', 'price': 29.99}]",Amazon,True,2025-06-05T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Amazon@receipts.com,email,Order Confirmation,45.98
+Health,2025-07-26T23:54:29.240887,"
+        Thanks for shopping with Lyft!
+        
+        Order Details:
+        Date: 2025-05-28T00:00:00
+        
+        Items Ordered:
+        1. Vitamins   $15.99
+        2. Protein Powder   $29.99
+        
+        Total: $45.98
+        ",9b5308aa-f0dd-4a3a-b4a6-5324bf5f3b2d,9b5308aa-f0dd-4a3a-b4a6-5324bf5f3b2d,['Spent $45.98 on Health items from Lyft.'],"[{'name': 'Vitamins', 'price': 15.99}, {'name': 'Protein Powder', 'price': 29.99}]",Lyft,True,2025-05-28T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Lyft@receipts.com,email,Order Confirmation,45.98
+Electronics,2025-07-26T23:54:29.240917,"
+        Thanks for shopping with Apple Store!
+        
+        Order Details:
+        Date: 2025-06-14T00:00:00
+        
+        Items Ordered:
+        1. Smartphone   $699.99
+        2. Bluetooth Headphones   $79.99
+        
+        Total: $779.98
+        ",2e084f59-ea9e-4558-9a3c-6e49c47bdb8f,2e084f59-ea9e-4558-9a3c-6e49c47bdb8f,['Spent $779.98 on Electronics items from Apple Store.'],"[{'name': 'Smartphone', 'price': 699.99}, {'name': 'Bluetooth Headphones', 'price': 79.99}]",Apple Store,True,2025-06-14T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Apple Store@receipts.com,email,Order Confirmation,779.98
+Health,2025-07-26T23:54:29.240949,"
+        Thanks for shopping with Best Buy!
+        
+        Order Details:
+        Date: 2025-03-16T00:00:00
+        
+        Items Ordered:
+        1. Protein Powder   $29.99
+        2. Vitamins   $15.99
+        
+        Total: $45.98
+        ",7a0e4a8f-2467-408a-9433-408ad42eda0d,7a0e4a8f-2467-408a-9433-408ad42eda0d,['Spent $45.98 on Health items from Best Buy.'],"[{'name': 'Protein Powder', 'price': 29.99}, {'name': 'Vitamins', 'price': 15.99}]",Best Buy,True,2025-03-16T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Best Buy@receipts.com,email,Order Confirmation,45.98
+Utilities,2025-07-26T23:54:29.240978,"
+        Thanks for shopping with Apple Store!
+        
+        Order Details:
+        Date: 2025-05-05T00:00:00
+        
+        Items Ordered:
+        1. Water Bill   $50.0
+        2. Electricity Bill   $100.0
+        
+        Total: $150.0
+        ",cf4ba264-98fa-4d14-b132-1c19f0e38e95,cf4ba264-98fa-4d14-b132-1c19f0e38e95,['Spent $150.0 on Utilities items from Apple Store.'],"[{'name': 'Water Bill', 'price': 50.0}, {'name': 'Electricity Bill', 'price': 100.0}]",Apple Store,True,2025-05-05T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Apple Store@receipts.com,email,Order Confirmation,150.0
+Food,2025-07-26T23:54:29.241009,"
+        Thanks for shopping with Amazon!
+        
+        Order Details:
+        Date: 2025-02-24T00:00:00
+        
+        Items Ordered:
+        1. Almond Milk   $3.99
+        2. Organic Apples   $5.99
+        
+        Total: $9.98
+        ",2554f663-ec12-4eca-84e8-92721f8ed014,2554f663-ec12-4eca-84e8-92721f8ed014,['Spent $9.98 on Food items from Amazon.'],"[{'name': 'Almond Milk', 'price': 3.99}, {'name': 'Organic Apples', 'price': 5.99}]",Amazon,True,2025-02-24T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Amazon@receipts.com,email,Order Confirmation,9.98
+Shopping,2025-07-26T23:54:29.241039,"
+        Thanks for shopping with Costco!
+        
+        Order Details:
+        Date: 2025-02-28T00:00:00
+        
+        Items Ordered:
+        1. Watch   $199.99
+        2. Shoes   $89.99
+        
+        Total: $289.98
+        ",372c40bb-2577-448e-9e14-20da7ec84fb1,372c40bb-2577-448e-9e14-20da7ec84fb1,['Spent $289.98 on Shopping items from Costco.'],"[{'name': 'Watch', 'price': 199.99}, {'name': 'Shoes', 'price': 89.99}]",Costco,True,2025-02-28T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Costco@receipts.com,email,Order Confirmation,289.98
+Food,2025-07-26T23:54:29.241068,"
+        Thanks for shopping with Whole Foods!
+        
+        Order Details:
+        Date: 2025-01-10T00:00:00
+        
+        Items Ordered:
+        1. Almond Milk   $3.99
+        2. Organic Apples   $5.99
+        
+        Total: $9.98
+        ",9f6f5ed0-c08b-46b1-8b23-d0bd95a55310,9f6f5ed0-c08b-46b1-8b23-d0bd95a55310,['Spent $9.98 on Food items from Whole Foods.'],"[{'name': 'Almond Milk', 'price': 3.99}, {'name': 'Organic Apples', 'price': 5.99}]",Whole Foods,True,2025-01-10T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Whole Foods@receipts.com,email,Order Confirmation,9.98
+Shopping,2025-07-26T23:54:29.241100,"
+        Thanks for shopping with Amazon!
+        
+        Order Details:
+        Date: 2025-05-13T00:00:00
+        
+        Items Ordered:
+        1. Shoes   $89.99
+        2. Watch   $199.99
+        
+        Total: $289.98
+        ",53c19a54-3382-4549-9122-791747a17b1b,53c19a54-3382-4549-9122-791747a17b1b,['Spent $289.98 on Shopping items from Amazon.'],"[{'name': 'Shoes', 'price': 89.99}, {'name': 'Watch', 'price': 199.99}]",Amazon,True,2025-05-13T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Amazon@receipts.com,email,Order Confirmation,289.98
+Shopping,2025-07-26T23:54:29.241185,"
+        Thanks for shopping with Best Buy!
+        
+        Order Details:
+        Date: 2025-04-01T00:00:00
+        
+        Items Ordered:
+        1. Watch   $199.99
+        2. Shoes   $89.99
+        
+        Total: $289.98
+        ",5333b837-709c-4963-99d6-f720d72312b8,5333b837-709c-4963-99d6-f720d72312b8,['Spent $289.98 on Shopping items from Best Buy.'],"[{'name': 'Watch', 'price': 199.99}, {'name': 'Shoes', 'price': 89.99}]",Best Buy,True,2025-04-01T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Best Buy@receipts.com,email,Order Confirmation,289.98
+Health,2025-07-26T23:54:29.241244,"
+        Thanks for shopping with Whole Foods!
+        
+        Order Details:
+        Date: 2025-01-25T00:00:00
+        
+        Items Ordered:
+        1. Vitamins   $15.99
+        2. Protein Powder   $29.99
+        
+        Total: $45.98
+        ",3300ee25-0440-4ea6-a3bb-c798287af9ae,3300ee25-0440-4ea6-a3bb-c798287af9ae,['Spent $45.98 on Health items from Whole Foods.'],"[{'name': 'Vitamins', 'price': 15.99}, {'name': 'Protein Powder', 'price': 29.99}]",Whole Foods,True,2025-01-25T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Whole Foods@receipts.com,email,Order Confirmation,45.98
+Dining,2025-07-26T23:54:29.241300,"
+        Thanks for shopping with Target!
+        
+        Order Details:
+        Date: 2025-06-06T00:00:00
+        
+        Items Ordered:
+        1. Lunch   $30.0
+        2. Dinner   $50.0
+        
+        Total: $80.0
+        ",23b65748-dbed-4772-8c8a-36957c0255ba,23b65748-dbed-4772-8c8a-36957c0255ba,['Spent $80.0 on Dining items from Target.'],"[{'name': 'Lunch', 'price': 30.0}, {'name': 'Dinner', 'price': 50.0}]",Target,True,2025-06-06T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Target@receipts.com,email,Order Confirmation,80.0
+Shopping,2025-07-26T23:54:29.241354,"
+        Thanks for shopping with Apple Store!
+        
+        Order Details:
+        Date: 2025-02-18T00:00:00
+        
+        Items Ordered:
+        1. Shoes   $89.99
+        2. Watch   $199.99
+        
+        Total: $289.98
+        ",200bf6db-da79-441d-abf2-01bc7c9149e7,200bf6db-da79-441d-abf2-01bc7c9149e7,['Spent $289.98 on Shopping items from Apple Store.'],"[{'name': 'Shoes', 'price': 89.99}, {'name': 'Watch', 'price': 199.99}]",Apple Store,True,2025-02-18T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Apple Store@receipts.com,email,Order Confirmation,289.98
+Dining,2025-07-26T23:54:29.241415,"
+        Thanks for shopping with Whole Foods!
+        
+        Order Details:
+        Date: 2025-04-03T00:00:00
+        
+        Items Ordered:
+        1. Dinner   $50.0
+        2. Lunch   $30.0
+        
+        Total: $80.0
+        ",869bc57c-f383-486b-948c-0738034de3bb,869bc57c-f383-486b-948c-0738034de3bb,['Spent $80.0 on Dining items from Whole Foods.'],"[{'name': 'Dinner', 'price': 50.0}, {'name': 'Lunch', 'price': 30.0}]",Whole Foods,True,2025-04-03T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Whole Foods@receipts.com,email,Order Confirmation,80.0
+Food,2025-07-26T23:54:29.241470,"
+        Thanks for shopping with Whole Foods!
+        
+        Order Details:
+        Date: 2025-05-08T00:00:00
+        
+        Items Ordered:
+        1. Organic Apples   $5.99
+        2. Almond Milk   $3.99
+        
+        Total: $9.98
+        ",f0c87615-605b-4305-8d76-002f38bb37e4,f0c87615-605b-4305-8d76-002f38bb37e4,['Spent $9.98 on Food items from Whole Foods.'],"[{'name': 'Organic Apples', 'price': 5.99}, {'name': 'Almond Milk', 'price': 3.99}]",Whole Foods,True,2025-05-08T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Whole Foods@receipts.com,email,Order Confirmation,9.98
+Transport,2025-07-26T23:54:29.241526,"
+        Thanks for shopping with Walmart!
+        
+        Order Details:
+        Date: 2025-07-04T00:00:00
+        
+        Items Ordered:
+        1. Bus Pass   $30.0
+        2. Taxi Ride   $20.0
+        
+        Total: $50.0
+        ",6aff041e-f2a2-4ec4-bb7e-d57e633d57be,6aff041e-f2a2-4ec4-bb7e-d57e633d57be,['Spent $50.0 on Transport items from Walmart.'],"[{'name': 'Bus Pass', 'price': 30.0}, {'name': 'Taxi Ride', 'price': 20.0}]",Walmart,True,2025-07-04T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Walmart@receipts.com,email,Order Confirmation,50.0
+Food,2025-07-26T23:54:29.241580,"
+        Thanks for shopping with Target!
+        
+        Order Details:
+        Date: 2025-04-12T00:00:00
+        
+        Items Ordered:
+        1. Organic Apples   $5.99
+        2. Almond Milk   $3.99
+        
+        Total: $9.98
+        ",e3608bcb-8a35-4426-b015-74cbff8e9326,e3608bcb-8a35-4426-b015-74cbff8e9326,['Spent $9.98 on Food items from Target.'],"[{'name': 'Organic Apples', 'price': 5.99}, {'name': 'Almond Milk', 'price': 3.99}]",Target,True,2025-04-12T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Target@receipts.com,email,Order Confirmation,9.98
+Electronics,2025-07-26T23:54:29.241635,"
+        Thanks for shopping with Best Buy!
+        
+        Order Details:
+        Date: 2025-01-22T00:00:00
+        
+        Items Ordered:
+        1. Bluetooth Headphones   $79.99
+        2. Smartphone   $699.99
+        
+        Total: $779.98
+        ",a7927ddf-5dbb-4530-ac14-2e8d2bb3fcc3,a7927ddf-5dbb-4530-ac14-2e8d2bb3fcc3,['Spent $779.98 on Electronics items from Best Buy.'],"[{'name': 'Bluetooth Headphones', 'price': 79.99}, {'name': 'Smartphone', 'price': 699.99}]",Best Buy,True,2025-01-22T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Best Buy@receipts.com,email,Order Confirmation,779.98
+Food,2025-07-26T23:54:29.241693,"
+        Thanks for shopping with Lyft!
+        
+        Order Details:
+        Date: 2025-06-05T00:00:00
+        
+        Items Ordered:
+        1. Almond Milk   $3.99
+        2. Organic Apples   $5.99
+        
+        Total: $9.98
+        ",f4c44cdd-dc28-40eb-9326-458bacc0b312,f4c44cdd-dc28-40eb-9326-458bacc0b312,['Spent $9.98 on Food items from Lyft.'],"[{'name': 'Almond Milk', 'price': 3.99}, {'name': 'Organic Apples', 'price': 5.99}]",Lyft,True,2025-06-05T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Lyft@receipts.com,email,Order Confirmation,9.98
+Dining,2025-07-26T23:54:29.241765,"
+        Thanks for shopping with Target!
+        
+        Order Details:
+        Date: 2025-04-05T00:00:00
+        
+        Items Ordered:
+        1. Lunch   $30.0
+        2. Dinner   $50.0
+        
+        Total: $80.0
+        ",4195ee48-f7a3-476c-b996-cba5ad0ec828,4195ee48-f7a3-476c-b996-cba5ad0ec828,['Spent $80.0 on Dining items from Target.'],"[{'name': 'Lunch', 'price': 30.0}, {'name': 'Dinner', 'price': 50.0}]",Target,True,2025-04-05T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Target@receipts.com,email,Order Confirmation,80.0
+Health,2025-07-26T23:54:29.241822,"
+        Thanks for shopping with Amazon!
+        
+        Order Details:
+        Date: 2025-02-03T00:00:00
+        
+        Items Ordered:
+        1. Vitamins   $15.99
+        2. Protein Powder   $29.99
+        
+        Total: $45.98
+        ",a62e1b4a-ca28-4024-9a00-90d56d99e4ae,a62e1b4a-ca28-4024-9a00-90d56d99e4ae,['Spent $45.98 on Health items from Amazon.'],"[{'name': 'Vitamins', 'price': 15.99}, {'name': 'Protein Powder', 'price': 29.99}]",Amazon,True,2025-02-03T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Amazon@receipts.com,email,Order Confirmation,45.98
+Dining,2025-07-26T23:54:29.241879,"
+        Thanks for shopping with Uber!
+        
+        Order Details:
+        Date: 2025-07-02T00:00:00
+        
+        Items Ordered:
+        1. Lunch   $30.0
+        2. Dinner   $50.0
+        
+        Total: $80.0
+        ",e886f8f6-057b-4ffb-bad5-dedae854bb69,e886f8f6-057b-4ffb-bad5-dedae854bb69,['Spent $80.0 on Dining items from Uber.'],"[{'name': 'Lunch', 'price': 30.0}, {'name': 'Dinner', 'price': 50.0}]",Uber,True,2025-07-02T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Uber@receipts.com,email,Order Confirmation,80.0
+Electronics,2025-07-26T23:54:29.241933,"
+        Thanks for shopping with Whole Foods!
+        
+        Order Details:
+        Date: 2025-01-21T00:00:00
+        
+        Items Ordered:
+        1. Smartphone   $699.99
+        2. Bluetooth Headphones   $79.99
+        
+        Total: $779.98
+        ",5a339c30-895e-45bf-9a07-4cdedb16e2fc,5a339c30-895e-45bf-9a07-4cdedb16e2fc,['Spent $779.98 on Electronics items from Whole Foods.'],"[{'name': 'Smartphone', 'price': 699.99}, {'name': 'Bluetooth Headphones', 'price': 79.99}]",Whole Foods,True,2025-01-21T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Whole Foods@receipts.com,email,Order Confirmation,779.98
+Health,2025-07-26T23:54:29.241990,"
+        Thanks for shopping with Lyft!
+        
+        Order Details:
+        Date: 2025-05-01T00:00:00
+        
+        Items Ordered:
+        1. Vitamins   $15.99
+        2. Protein Powder   $29.99
+        
+        Total: $45.98
+        ",8362c5c7-36c9-43b3-a6a3-1c6b976aeb52,8362c5c7-36c9-43b3-a6a3-1c6b976aeb52,['Spent $45.98 on Health items from Lyft.'],"[{'name': 'Vitamins', 'price': 15.99}, {'name': 'Protein Powder', 'price': 29.99}]",Lyft,True,2025-05-01T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Lyft@receipts.com,email,Order Confirmation,45.98
+Shopping,2025-07-26T23:54:29.242047,"
+        Thanks for shopping with Costco!
+        
+        Order Details:
+        Date: 2025-01-05T00:00:00
+        
+        Items Ordered:
+        1. Shoes   $89.99
+        2. Watch   $199.99
+        
+        Total: $289.98
+        ",185cc336-175f-4bc6-bd41-0230871dd354,185cc336-175f-4bc6-bd41-0230871dd354,['Spent $289.98 on Shopping items from Costco.'],"[{'name': 'Shoes', 'price': 89.99}, {'name': 'Watch', 'price': 199.99}]",Costco,True,2025-01-05T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Costco@receipts.com,email,Order Confirmation,289.98
+Health,2025-07-26T23:54:29.242102,"
+        Thanks for shopping with Target!
+        
+        Order Details:
+        Date: 2025-04-07T00:00:00
+        
+        Items Ordered:
+        1. Protein Powder   $29.99
+        2. Vitamins   $15.99
+        
+        Total: $45.98
+        ",e8a720e7-f6f5-49af-9f84-8f053ec99932,e8a720e7-f6f5-49af-9f84-8f053ec99932,['Spent $45.98 on Health items from Target.'],"[{'name': 'Protein Powder', 'price': 29.99}, {'name': 'Vitamins', 'price': 15.99}]",Target,True,2025-04-07T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Target@receipts.com,email,Order Confirmation,45.98
+Transport,2025-07-26T23:54:29.242157,"
+        Thanks for shopping with Target!
+        
+        Order Details:
+        Date: 2025-06-06T00:00:00
+        
+        Items Ordered:
+        1. Taxi Ride   $20.0
+        2. Bus Pass   $30.0
+        
+        Total: $50.0
+        ",965076cd-371c-4538-994a-3b37992ee781,965076cd-371c-4538-994a-3b37992ee781,['Spent $50.0 on Transport items from Target.'],"[{'name': 'Taxi Ride', 'price': 20.0}, {'name': 'Bus Pass', 'price': 30.0}]",Target,True,2025-06-06T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Target@receipts.com,email,Order Confirmation,50.0
+Health,2025-07-26T23:54:29.242209,"
+        Thanks for shopping with Walmart!
+        
+        Order Details:
+        Date: 2025-02-26T00:00:00
+        
+        Items Ordered:
+        1. Protein Powder   $29.99
+        2. Vitamins   $15.99
+        
+        Total: $45.98
+        ",265e3118-7892-401b-865a-88c669e28a24,265e3118-7892-401b-865a-88c669e28a24,['Spent $45.98 on Health items from Walmart.'],"[{'name': 'Protein Powder', 'price': 29.99}, {'name': 'Vitamins', 'price': 15.99}]",Walmart,True,2025-02-26T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Walmart@receipts.com,email,Order Confirmation,45.98
+Clothing,2025-07-26T23:54:29.242264,"
+        Thanks for shopping with Apple Store!
+        
+        Order Details:
+        Date: 2025-05-01T00:00:00
+        
+        Items Ordered:
+        1. Jeans   $49.99
+        2. T-Shirt   $19.99
+        
+        Total: $69.98
+        ",20236779-10e4-4f5b-b2c8-7d79c7fe2a57,20236779-10e4-4f5b-b2c8-7d79c7fe2a57,['Spent $69.98 on Clothing items from Apple Store.'],"[{'name': 'Jeans', 'price': 49.99}, {'name': 'T-Shirt', 'price': 19.99}]",Apple Store,True,2025-05-01T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Apple Store@receipts.com,email,Order Confirmation,69.98
+Dining,2025-07-26T23:54:29.242320,"
+        Thanks for shopping with Best Buy!
+        
+        Order Details:
+        Date: 2025-04-29T00:00:00
+        
+        Items Ordered:
+        1. Dinner   $50.0
+        2. Lunch   $30.0
+        
+        Total: $80.0
+        ",09192bea-5fc1-4a07-b71a-e21f210307a0,09192bea-5fc1-4a07-b71a-e21f210307a0,['Spent $80.0 on Dining items from Best Buy.'],"[{'name': 'Dinner', 'price': 50.0}, {'name': 'Lunch', 'price': 30.0}]",Best Buy,True,2025-04-29T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Best Buy@receipts.com,email,Order Confirmation,80.0
+Clothing,2025-07-26T23:54:29.242373,"
+        Thanks for shopping with Lyft!
+        
+        Order Details:
+        Date: 2025-01-27T00:00:00
+        
+        Items Ordered:
+        1. Jeans   $49.99
+        2. T-Shirt   $19.99
+        
+        Total: $69.98
+        ",b8991a27-8b75-4e5a-a77a-b94f6431f424,b8991a27-8b75-4e5a-a77a-b94f6431f424,['Spent $69.98 on Clothing items from Lyft.'],"[{'name': 'Jeans', 'price': 49.99}, {'name': 'T-Shirt', 'price': 19.99}]",Lyft,True,2025-01-27T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Lyft@receipts.com,email,Order Confirmation,69.98
+Clothing,2025-07-26T23:54:29.242428,"
+        Thanks for shopping with Target!
+        
+        Order Details:
+        Date: 2025-06-01T00:00:00
+        
+        Items Ordered:
+        1. Jeans   $49.99
+        2. T-Shirt   $19.99
+        
+        Total: $69.98
+        ",dee624b7-6a69-4b59-a327-ad4da3cec55e,dee624b7-6a69-4b59-a327-ad4da3cec55e,['Spent $69.98 on Clothing items from Target.'],"[{'name': 'Jeans', 'price': 49.99}, {'name': 'T-Shirt', 'price': 19.99}]",Target,True,2025-06-01T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Target@receipts.com,email,Order Confirmation,69.98
+Utilities,2025-07-26T23:54:29.242483,"
+        Thanks for shopping with Amazon!
+        
+        Order Details:
+        Date: 2025-06-16T00:00:00
+        
+        Items Ordered:
+        1. Electricity Bill   $100.0
+        2. Water Bill   $50.0
+        
+        Total: $150.0
+        ",102b2f1a-041f-443b-bd7f-8c4bc8492234,102b2f1a-041f-443b-bd7f-8c4bc8492234,['Spent $150.0 on Utilities items from Amazon.'],"[{'name': 'Electricity Bill', 'price': 100.0}, {'name': 'Water Bill', 'price': 50.0}]",Amazon,True,2025-06-16T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Amazon@receipts.com,email,Order Confirmation,150.0
+Utilities,2025-07-26T23:54:29.242535,"
+        Thanks for shopping with Amazon!
+        
+        Order Details:
+        Date: 2025-02-08T00:00:00
+        
+        Items Ordered:
+        1. Electricity Bill   $100.0
+        2. Water Bill   $50.0
+        
+        Total: $150.0
+        ",216d6b87-09a5-4e99-b71c-7b5e659179cc,216d6b87-09a5-4e99-b71c-7b5e659179cc,['Spent $150.0 on Utilities items from Amazon.'],"[{'name': 'Electricity Bill', 'price': 100.0}, {'name': 'Water Bill', 'price': 50.0}]",Amazon,True,2025-02-08T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Amazon@receipts.com,email,Order Confirmation,150.0
+Utilities,2025-07-26T23:54:29.242588,"
+        Thanks for shopping with Costco!
+        
+        Order Details:
+        Date: 2025-04-03T00:00:00
+        
+        Items Ordered:
+        1. Water Bill   $50.0
+        2. Electricity Bill   $100.0
+        
+        Total: $150.0
+        ",ff94c154-be32-443b-a542-8b7764dddc4f,ff94c154-be32-443b-a542-8b7764dddc4f,['Spent $150.0 on Utilities items from Costco.'],"[{'name': 'Water Bill', 'price': 50.0}, {'name': 'Electricity Bill', 'price': 100.0}]",Costco,True,2025-04-03T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Costco@receipts.com,email,Order Confirmation,150.0
+Food,2025-07-26T23:54:29.242640,"
+        Thanks for shopping with Apple Store!
+        
+        Order Details:
+        Date: 2025-07-18T00:00:00
+        
+        Items Ordered:
+        1. Almond Milk   $3.99
+        2. Organic Apples   $5.99
+        
+        Total: $9.98
+        ",03dcc2d8-5763-46c9-a4ed-9a68ff9fe213,03dcc2d8-5763-46c9-a4ed-9a68ff9fe213,['Spent $9.98 on Food items from Apple Store.'],"[{'name': 'Almond Milk', 'price': 3.99}, {'name': 'Organic Apples', 'price': 5.99}]",Apple Store,True,2025-07-18T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Apple Store@receipts.com,email,Order Confirmation,9.98
+Transport,2025-07-26T23:54:29.242695,"
+        Thanks for shopping with Lyft!
+        
+        Order Details:
+        Date: 2025-05-06T00:00:00
+        
+        Items Ordered:
+        1. Bus Pass   $30.0
+        2. Taxi Ride   $20.0
+        
+        Total: $50.0
+        ",27e1817b-5e58-43f4-8c7f-5bcf37f38cb0,27e1817b-5e58-43f4-8c7f-5bcf37f38cb0,['Spent $50.0 on Transport items from Lyft.'],"[{'name': 'Bus Pass', 'price': 30.0}, {'name': 'Taxi Ride', 'price': 20.0}]",Lyft,True,2025-05-06T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Lyft@receipts.com,email,Order Confirmation,50.0
+Clothing,2025-07-26T23:54:29.242748,"
+        Thanks for shopping with Walmart!
+        
+        Order Details:
+        Date: 2025-05-31T00:00:00
+        
+        Items Ordered:
+        1. T-Shirt   $19.99
+        2. Jeans   $49.99
+        
+        Total: $69.98
+        ",b0f5f613-4ee5-42e0-96da-0a70c205cfc1,b0f5f613-4ee5-42e0-96da-0a70c205cfc1,['Spent $69.98 on Clothing items from Walmart.'],"[{'name': 'T-Shirt', 'price': 19.99}, {'name': 'Jeans', 'price': 49.99}]",Walmart,True,2025-05-31T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Walmart@receipts.com,email,Order Confirmation,69.98
+Clothing,2025-07-26T23:54:29.242802,"
+        Thanks for shopping with Costco!
+        
+        Order Details:
+        Date: 2025-04-20T00:00:00
+        
+        Items Ordered:
+        1. Jeans   $49.99
+        2. T-Shirt   $19.99
+        
+        Total: $69.98
+        ",8910bab3-8dec-444a-8d39-6263823e2b28,8910bab3-8dec-444a-8d39-6263823e2b28,['Spent $69.98 on Clothing items from Costco.'],"[{'name': 'Jeans', 'price': 49.99}, {'name': 'T-Shirt', 'price': 19.99}]",Costco,True,2025-04-20T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Costco@receipts.com,email,Order Confirmation,69.98
+Shopping,2025-07-26T23:54:29.242856,"
+        Thanks for shopping with Apple Store!
+        
+        Order Details:
+        Date: 2025-07-24T00:00:00
+        
+        Items Ordered:
+        1. Shoes   $89.99
+        2. Watch   $199.99
+        
+        Total: $289.98
+        ",1badf013-5d0e-4949-9346-cc723c5c869e,1badf013-5d0e-4949-9346-cc723c5c869e,['Spent $289.98 on Shopping items from Apple Store.'],"[{'name': 'Shoes', 'price': 89.99}, {'name': 'Watch', 'price': 199.99}]",Apple Store,True,2025-07-24T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Apple Store@receipts.com,email,Order Confirmation,289.98
+Electronics,2025-07-26T23:54:29.242911,"
+        Thanks for shopping with Costco!
+        
+        Order Details:
+        Date: 2025-01-21T00:00:00
+        
+        Items Ordered:
+        1. Smartphone   $699.99
+        2. Bluetooth Headphones   $79.99
+        
+        Total: $779.98
+        ",a8dc7c46-1986-4e0b-8c86-f5e27e787ba2,a8dc7c46-1986-4e0b-8c86-f5e27e787ba2,['Spent $779.98 on Electronics items from Costco.'],"[{'name': 'Smartphone', 'price': 699.99}, {'name': 'Bluetooth Headphones', 'price': 79.99}]",Costco,True,2025-01-21T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Costco@receipts.com,email,Order Confirmation,779.98
+Transport,2025-07-26T23:54:29.242966,"
+        Thanks for shopping with Whole Foods!
+        
+        Order Details:
+        Date: 2025-01-14T00:00:00
+        
+        Items Ordered:
+        1. Taxi Ride   $20.0
+        2. Bus Pass   $30.0
+        
+        Total: $50.0
+        ",1efe1645-4b2c-45ed-8f9e-0e392690fca5,1efe1645-4b2c-45ed-8f9e-0e392690fca5,['Spent $50.0 on Transport items from Whole Foods.'],"[{'name': 'Taxi Ride', 'price': 20.0}, {'name': 'Bus Pass', 'price': 30.0}]",Whole Foods,True,2025-01-14T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Whole Foods@receipts.com,email,Order Confirmation,50.0
+Dining,2025-07-26T23:54:29.243017,"
+        Thanks for shopping with Uber!
+        
+        Order Details:
+        Date: 2025-06-06T00:00:00
+        
+        Items Ordered:
+        1. Lunch   $30.0
+        2. Dinner   $50.0
+        
+        Total: $80.0
+        ",45f7293b-3532-4233-9322-b15494b061bb,45f7293b-3532-4233-9322-b15494b061bb,['Spent $80.0 on Dining items from Uber.'],"[{'name': 'Lunch', 'price': 30.0}, {'name': 'Dinner', 'price': 50.0}]",Uber,True,2025-06-06T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Uber@receipts.com,email,Order Confirmation,80.0
+Food,2025-07-26T23:54:29.243069,"
+        Thanks for shopping with Amazon!
+        
+        Order Details:
+        Date: 2025-03-08T00:00:00
+        
+        Items Ordered:
+        1. Organic Apples   $5.99
+        2. Almond Milk   $3.99
+        
+        Total: $9.98
+        ",5a9ab5aa-d04a-4cd2-985a-e04d0171150d,5a9ab5aa-d04a-4cd2-985a-e04d0171150d,['Spent $9.98 on Food items from Amazon.'],"[{'name': 'Organic Apples', 'price': 5.99}, {'name': 'Almond Milk', 'price': 3.99}]",Amazon,True,2025-03-08T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Amazon@receipts.com,email,Order Confirmation,9.98
+Clothing,2025-07-26T23:54:29.243128,"
+        Thanks for shopping with Whole Foods!
+        
+        Order Details:
+        Date: 2025-05-29T00:00:00
+        
+        Items Ordered:
+        1. T-Shirt   $19.99
+        2. Jeans   $49.99
+        
+        Total: $69.98
+        ",f71415ea-1297-4d61-ab0a-5c6c16e282e8,f71415ea-1297-4d61-ab0a-5c6c16e282e8,['Spent $69.98 on Clothing items from Whole Foods.'],"[{'name': 'T-Shirt', 'price': 19.99}, {'name': 'Jeans', 'price': 49.99}]",Whole Foods,True,2025-05-29T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Whole Foods@receipts.com,email,Order Confirmation,69.98
+Clothing,2025-07-26T23:54:29.243254,"
+        Thanks for shopping with Lyft!
+        
+        Order Details:
+        Date: 2025-04-19T00:00:00
+        
+        Items Ordered:
+        1. Jeans   $49.99
+        2. T-Shirt   $19.99
+        
+        Total: $69.98
+        ",6fb39544-234f-494e-a71e-de5abfc5de15,6fb39544-234f-494e-a71e-de5abfc5de15,['Spent $69.98 on Clothing items from Lyft.'],"[{'name': 'Jeans', 'price': 49.99}, {'name': 'T-Shirt', 'price': 19.99}]",Lyft,True,2025-04-19T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Lyft@receipts.com,email,Order Confirmation,69.98
+Transport,2025-07-26T23:54:29.243285,"
+        Thanks for shopping with Lyft!
+        
+        Order Details:
+        Date: 2025-02-04T00:00:00
+        
+        Items Ordered:
+        1. Bus Pass   $30.0
+        2. Taxi Ride   $20.0
+        
+        Total: $50.0
+        ",e40dc3ef-94f7-4243-94ac-9e4df8aa0bff,e40dc3ef-94f7-4243-94ac-9e4df8aa0bff,['Spent $50.0 on Transport items from Lyft.'],"[{'name': 'Bus Pass', 'price': 30.0}, {'name': 'Taxi Ride', 'price': 20.0}]",Lyft,True,2025-02-04T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Lyft@receipts.com,email,Order Confirmation,50.0
+Clothing,2025-07-26T23:54:29.243311,"
+        Thanks for shopping with Lyft!
+        
+        Order Details:
+        Date: 2025-02-25T00:00:00
+        
+        Items Ordered:
+        1. T-Shirt   $19.99
+        2. Jeans   $49.99
+        
+        Total: $69.98
+        ",1c6bceee-2b41-4ace-8e7c-b0178f9200e9,1c6bceee-2b41-4ace-8e7c-b0178f9200e9,['Spent $69.98 on Clothing items from Lyft.'],"[{'name': 'T-Shirt', 'price': 19.99}, {'name': 'Jeans', 'price': 49.99}]",Lyft,True,2025-02-25T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Lyft@receipts.com,email,Order Confirmation,69.98
+Electronics,2025-07-26T23:54:29.243338,"
+        Thanks for shopping with Costco!
+        
+        Order Details:
+        Date: 2025-05-20T00:00:00
+        
+        Items Ordered:
+        1. Smartphone   $699.99
+        2. Bluetooth Headphones   $79.99
+        
+        Total: $779.98
+        ",5578a362-7287-4d1d-8933-9ad94d6ecac8,5578a362-7287-4d1d-8933-9ad94d6ecac8,['Spent $779.98 on Electronics items from Costco.'],"[{'name': 'Smartphone', 'price': 699.99}, {'name': 'Bluetooth Headphones', 'price': 79.99}]",Costco,True,2025-05-20T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Costco@receipts.com,email,Order Confirmation,779.98
+Health,2025-07-26T23:54:29.243368,"
+        Thanks for shopping with Uber!
+        
+        Order Details:
+        Date: 2025-04-05T00:00:00
+        
+        Items Ordered:
+        1. Vitamins   $15.99
+        2. Protein Powder   $29.99
+        
+        Total: $45.98
+        ",4e3f6a81-87fb-47a7-842d-202371ba9e5d,4e3f6a81-87fb-47a7-842d-202371ba9e5d,['Spent $45.98 on Health items from Uber.'],"[{'name': 'Vitamins', 'price': 15.99}, {'name': 'Protein Powder', 'price': 29.99}]",Uber,True,2025-04-05T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Uber@receipts.com,email,Order Confirmation,45.98
+Dining,2025-07-26T23:54:29.243396,"
+        Thanks for shopping with Costco!
+        
+        Order Details:
+        Date: 2025-07-18T00:00:00
+        
+        Items Ordered:
+        1. Lunch   $30.0
+        2. Dinner   $50.0
+        
+        Total: $80.0
+        ",f9bc14df-2cf3-432c-bfc3-c2743fdebcd8,f9bc14df-2cf3-432c-bfc3-c2743fdebcd8,['Spent $80.0 on Dining items from Costco.'],"[{'name': 'Lunch', 'price': 30.0}, {'name': 'Dinner', 'price': 50.0}]",Costco,True,2025-07-18T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Costco@receipts.com,email,Order Confirmation,80.0
+Health,2025-07-26T23:54:29.243424,"
+        Thanks for shopping with Amazon!
+        
+        Order Details:
+        Date: 2025-05-25T00:00:00
+        
+        Items Ordered:
+        1. Protein Powder   $29.99
+        2. Vitamins   $15.99
+        
+        Total: $45.98
+        ",2c7e0f1f-022d-441d-ac13-c3e888157e0e,2c7e0f1f-022d-441d-ac13-c3e888157e0e,['Spent $45.98 on Health items from Amazon.'],"[{'name': 'Protein Powder', 'price': 29.99}, {'name': 'Vitamins', 'price': 15.99}]",Amazon,True,2025-05-25T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Amazon@receipts.com,email,Order Confirmation,45.98
+Transport,2025-07-26T23:54:29.243452,"
+        Thanks for shopping with Walmart!
+        
+        Order Details:
+        Date: 2025-01-17T00:00:00
+        
+        Items Ordered:
+        1. Taxi Ride   $20.0
+        2. Bus Pass   $30.0
+        
+        Total: $50.0
+        ",996760a4-df69-4890-a5cc-3858952cef77,996760a4-df69-4890-a5cc-3858952cef77,['Spent $50.0 on Transport items from Walmart.'],"[{'name': 'Taxi Ride', 'price': 20.0}, {'name': 'Bus Pass', 'price': 30.0}]",Walmart,True,2025-01-17T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Walmart@receipts.com,email,Order Confirmation,50.0
+Utilities,2025-07-26T23:54:29.243484,"
+        Thanks for shopping with Best Buy!
+        
+        Order Details:
+        Date: 2025-07-18T00:00:00
+        
+        Items Ordered:
+        1. Electricity Bill   $100.0
+        2. Water Bill   $50.0
+        
+        Total: $150.0
+        ",1b2e18ad-acd3-4db8-9828-9c6e2f5cfbc1,1b2e18ad-acd3-4db8-9828-9c6e2f5cfbc1,['Spent $150.0 on Utilities items from Best Buy.'],"[{'name': 'Electricity Bill', 'price': 100.0}, {'name': 'Water Bill', 'price': 50.0}]",Best Buy,True,2025-07-18T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Best Buy@receipts.com,email,Order Confirmation,150.0
+Health,2025-07-26T23:54:29.243511,"
+        Thanks for shopping with Amazon!
+        
+        Order Details:
+        Date: 2025-01-20T00:00:00
+        
+        Items Ordered:
+        1. Vitamins   $15.99
+        2. Protein Powder   $29.99
+        
+        Total: $45.98
+        ",9eba2d59-fdaa-4d82-87f6-b801569dff66,9eba2d59-fdaa-4d82-87f6-b801569dff66,['Spent $45.98 on Health items from Amazon.'],"[{'name': 'Vitamins', 'price': 15.99}, {'name': 'Protein Powder', 'price': 29.99}]",Amazon,True,2025-01-20T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Amazon@receipts.com,email,Order Confirmation,45.98
+Food,2025-07-26T23:54:29.243548,"
+        Thanks for shopping with Walmart!
+        
+        Order Details:
+        Date: 2025-06-08T00:00:00
+        
+        Items Ordered:
+        1. Almond Milk   $3.99
+        2. Organic Apples   $5.99
+        
+        Total: $9.98
+        ",bb3ba3e0-d4a3-4a17-a541-7d17ff7eb429,bb3ba3e0-d4a3-4a17-a541-7d17ff7eb429,['Spent $9.98 on Food items from Walmart.'],"[{'name': 'Almond Milk', 'price': 3.99}, {'name': 'Organic Apples', 'price': 5.99}]",Walmart,True,2025-06-08T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Walmart@receipts.com,email,Order Confirmation,9.98
+Food,2025-07-26T23:54:29.243577,"
+        Thanks for shopping with Costco!
+        
+        Order Details:
+        Date: 2025-07-07T00:00:00
+        
+        Items Ordered:
+        1. Almond Milk   $3.99
+        2. Organic Apples   $5.99
+        
+        Total: $9.98
+        ",e0aadc84-9b93-428a-9fbb-d78232e6c23d,e0aadc84-9b93-428a-9fbb-d78232e6c23d,['Spent $9.98 on Food items from Costco.'],"[{'name': 'Almond Milk', 'price': 3.99}, {'name': 'Organic Apples', 'price': 5.99}]",Costco,True,2025-07-07T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Costco@receipts.com,email,Order Confirmation,9.98
+Electronics,2025-07-26T23:54:29.243605,"
+        Thanks for shopping with Uber!
+        
+        Order Details:
+        Date: 2025-04-30T00:00:00
+        
+        Items Ordered:
+        1. Bluetooth Headphones   $79.99
+        2. Smartphone   $699.99
+        
+        Total: $779.98
+        ",1a9e9f42-c7d1-44a2-bea7-b8722d303399,1a9e9f42-c7d1-44a2-bea7-b8722d303399,['Spent $779.98 on Electronics items from Uber.'],"[{'name': 'Bluetooth Headphones', 'price': 79.99}, {'name': 'Smartphone', 'price': 699.99}]",Uber,True,2025-04-30T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Uber@receipts.com,email,Order Confirmation,779.98
+Health,2025-07-26T23:54:29.243635,"
+        Thanks for shopping with Costco!
+        
+        Order Details:
+        Date: 2025-02-17T00:00:00
+        
+        Items Ordered:
+        1. Vitamins   $15.99
+        2. Protein Powder   $29.99
+        
+        Total: $45.98
+        ",56d6d3b8-7a99-48f3-b1ff-b16aaa0c21d7,56d6d3b8-7a99-48f3-b1ff-b16aaa0c21d7,['Spent $45.98 on Health items from Costco.'],"[{'name': 'Vitamins', 'price': 15.99}, {'name': 'Protein Powder', 'price': 29.99}]",Costco,True,2025-02-17T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Costco@receipts.com,email,Order Confirmation,45.98
+Clothing,2025-07-26T23:54:29.243663,"
+        Thanks for shopping with Apple Store!
+        
+        Order Details:
+        Date: 2025-07-18T00:00:00
+        
+        Items Ordered:
+        1. Jeans   $49.99
+        2. T-Shirt   $19.99
+        
+        Total: $69.98
+        ",d03459fc-6618-4198-aa22-1bba823a5de4,d03459fc-6618-4198-aa22-1bba823a5de4,['Spent $69.98 on Clothing items from Apple Store.'],"[{'name': 'Jeans', 'price': 49.99}, {'name': 'T-Shirt', 'price': 19.99}]",Apple Store,True,2025-07-18T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Apple Store@receipts.com,email,Order Confirmation,69.98
+Clothing,2025-07-26T23:54:29.243691,"
+        Thanks for shopping with Uber!
+        
+        Order Details:
+        Date: 2025-03-16T00:00:00
+        
+        Items Ordered:
+        1. Jeans   $49.99
+        2. T-Shirt   $19.99
+        
+        Total: $69.98
+        ",ba8c4e78-0f43-4aeb-8df1-d1ed7a99d4b7,ba8c4e78-0f43-4aeb-8df1-d1ed7a99d4b7,['Spent $69.98 on Clothing items from Uber.'],"[{'name': 'Jeans', 'price': 49.99}, {'name': 'T-Shirt', 'price': 19.99}]",Uber,True,2025-03-16T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Uber@receipts.com,email,Order Confirmation,69.98
+Electronics,2025-07-26T23:54:29.243718,"
+        Thanks for shopping with Uber!
+        
+        Order Details:
+        Date: 2025-07-24T00:00:00
+        
+        Items Ordered:
+        1. Bluetooth Headphones   $79.99
+        2. Smartphone   $699.99
+        
+        Total: $779.98
+        ",ef10240b-e2c4-4dcb-91e2-8a2df6af284a,ef10240b-e2c4-4dcb-91e2-8a2df6af284a,['Spent $779.98 on Electronics items from Uber.'],"[{'name': 'Bluetooth Headphones', 'price': 79.99}, {'name': 'Smartphone', 'price': 699.99}]",Uber,True,2025-07-24T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Uber@receipts.com,email,Order Confirmation,779.98
+Food,2025-07-26T23:54:29.243746,"
+        Thanks for shopping with Costco!
+        
+        Order Details:
+        Date: 2025-05-30T00:00:00
+        
+        Items Ordered:
+        1. Almond Milk   $3.99
+        2. Organic Apples   $5.99
+        
+        Total: $9.98
+        ",e5e5e00e-6ce0-4632-945e-9eed1d1ebe43,e5e5e00e-6ce0-4632-945e-9eed1d1ebe43,['Spent $9.98 on Food items from Costco.'],"[{'name': 'Almond Milk', 'price': 3.99}, {'name': 'Organic Apples', 'price': 5.99}]",Costco,True,2025-05-30T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Costco@receipts.com,email,Order Confirmation,9.98
+Transport,2025-07-26T23:54:29.243775,"
+        Thanks for shopping with Uber!
+        
+        Order Details:
+        Date: 2025-05-24T00:00:00
+        
+        Items Ordered:
+        1. Taxi Ride   $20.0
+        2. Bus Pass   $30.0
+        
+        Total: $50.0
+        ",13f4d36c-c667-42ca-bdbe-82a2ff26acbd,13f4d36c-c667-42ca-bdbe-82a2ff26acbd,['Spent $50.0 on Transport items from Uber.'],"[{'name': 'Taxi Ride', 'price': 20.0}, {'name': 'Bus Pass', 'price': 30.0}]",Uber,True,2025-05-24T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Uber@receipts.com,email,Order Confirmation,50.0
+Health,2025-07-26T23:54:29.243801,"
+        Thanks for shopping with Amazon!
+        
+        Order Details:
+        Date: 2025-03-06T00:00:00
+        
+        Items Ordered:
+        1. Vitamins   $15.99
+        2. Protein Powder   $29.99
+        
+        Total: $45.98
+        ",8555298e-8c9d-4747-8c44-f0090e0a9238,8555298e-8c9d-4747-8c44-f0090e0a9238,['Spent $45.98 on Health items from Amazon.'],"[{'name': 'Vitamins', 'price': 15.99}, {'name': 'Protein Powder', 'price': 29.99}]",Amazon,True,2025-03-06T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Amazon@receipts.com,email,Order Confirmation,45.98
+Electronics,2025-07-26T23:54:29.243829,"
+        Thanks for shopping with Walmart!
+        
+        Order Details:
+        Date: 2025-02-13T00:00:00
+        
+        Items Ordered:
+        1. Smartphone   $699.99
+        2. Bluetooth Headphones   $79.99
+        
+        Total: $779.98
+        ",4c1b4a7e-a4b7-40ea-9910-70e28fbef817,4c1b4a7e-a4b7-40ea-9910-70e28fbef817,['Spent $779.98 on Electronics items from Walmart.'],"[{'name': 'Smartphone', 'price': 699.99}, {'name': 'Bluetooth Headphones', 'price': 79.99}]",Walmart,True,2025-02-13T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Walmart@receipts.com,email,Order Confirmation,779.98
+Dining,2025-07-26T23:54:29.243857,"
+        Thanks for shopping with Target!
+        
+        Order Details:
+        Date: 2025-04-11T00:00:00
+        
+        Items Ordered:
+        1. Lunch   $30.0
+        2. Dinner   $50.0
+        
+        Total: $80.0
+        ",ac412a0f-5ba7-4055-8ba5-91c0de27a72c,ac412a0f-5ba7-4055-8ba5-91c0de27a72c,['Spent $80.0 on Dining items from Target.'],"[{'name': 'Lunch', 'price': 30.0}, {'name': 'Dinner', 'price': 50.0}]",Target,True,2025-04-11T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Target@receipts.com,email,Order Confirmation,80.0
+Transport,2025-07-26T23:54:29.243884,"
+        Thanks for shopping with Amazon!
+        
+        Order Details:
+        Date: 2025-07-06T00:00:00
+        
+        Items Ordered:
+        1. Bus Pass   $30.0
+        2. Taxi Ride   $20.0
+        
+        Total: $50.0
+        ",97e72796-9559-4b44-bf40-3afca522614d,97e72796-9559-4b44-bf40-3afca522614d,['Spent $50.0 on Transport items from Amazon.'],"[{'name': 'Bus Pass', 'price': 30.0}, {'name': 'Taxi Ride', 'price': 20.0}]",Amazon,True,2025-07-06T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Amazon@receipts.com,email,Order Confirmation,50.0
+Clothing,2025-07-26T23:54:29.243911,"
+        Thanks for shopping with Target!
+        
+        Order Details:
+        Date: 2025-01-06T00:00:00
+        
+        Items Ordered:
+        1. Jeans   $49.99
+        2. T-Shirt   $19.99
+        
+        Total: $69.98
+        ",8ab91eb0-72b4-4833-b9cf-c393fefc23a0,8ab91eb0-72b4-4833-b9cf-c393fefc23a0,['Spent $69.98 on Clothing items from Target.'],"[{'name': 'Jeans', 'price': 49.99}, {'name': 'T-Shirt', 'price': 19.99}]",Target,True,2025-01-06T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Target@receipts.com,email,Order Confirmation,69.98
+Electronics,2025-07-26T23:54:29.243937,"
+        Thanks for shopping with Apple Store!
+        
+        Order Details:
+        Date: 2025-07-18T00:00:00
+        
+        Items Ordered:
+        1. Bluetooth Headphones   $79.99
+        2. Smartphone   $699.99
+        
+        Total: $779.98
+        ",e28d75f0-7aee-4dc0-9f58-9fdf1900b879,e28d75f0-7aee-4dc0-9f58-9fdf1900b879,['Spent $779.98 on Electronics items from Apple Store.'],"[{'name': 'Bluetooth Headphones', 'price': 79.99}, {'name': 'Smartphone', 'price': 699.99}]",Apple Store,True,2025-07-18T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Apple Store@receipts.com,email,Order Confirmation,779.98
+Utilities,2025-07-26T23:54:29.243965,"
+        Thanks for shopping with Apple Store!
+        
+        Order Details:
+        Date: 2025-03-08T00:00:00
+        
+        Items Ordered:
+        1. Water Bill   $50.0
+        2. Electricity Bill   $100.0
+        
+        Total: $150.0
+        ",e5910bdc-bc9c-4f0d-bf6b-2cf122b3a50b,e5910bdc-bc9c-4f0d-bf6b-2cf122b3a50b,['Spent $150.0 on Utilities items from Apple Store.'],"[{'name': 'Water Bill', 'price': 50.0}, {'name': 'Electricity Bill', 'price': 100.0}]",Apple Store,True,2025-03-08T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Apple Store@receipts.com,email,Order Confirmation,150.0
+Shopping,2025-07-26T23:54:29.243991,"
+        Thanks for shopping with Costco!
+        
+        Order Details:
+        Date: 2025-02-15T00:00:00
+        
+        Items Ordered:
+        1. Watch   $199.99
+        2. Shoes   $89.99
+        
+        Total: $289.98
+        ",5a7e51ea-a4c9-4197-85c4-42cff79088e5,5a7e51ea-a4c9-4197-85c4-42cff79088e5,['Spent $289.98 on Shopping items from Costco.'],"[{'name': 'Watch', 'price': 199.99}, {'name': 'Shoes', 'price': 89.99}]",Costco,True,2025-02-15T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Costco@receipts.com,email,Order Confirmation,289.98
+Transport,2025-07-26T23:54:29.244019,"
+        Thanks for shopping with Walmart!
+        
+        Order Details:
+        Date: 2025-04-30T00:00:00
+        
+        Items Ordered:
+        1. Bus Pass   $30.0
+        2. Taxi Ride   $20.0
+        
+        Total: $50.0
+        ",4979cb32-9614-4d74-8010-65bd0be85448,4979cb32-9614-4d74-8010-65bd0be85448,['Spent $50.0 on Transport items from Walmart.'],"[{'name': 'Bus Pass', 'price': 30.0}, {'name': 'Taxi Ride', 'price': 20.0}]",Walmart,True,2025-04-30T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Walmart@receipts.com,email,Order Confirmation,50.0
+Utilities,2025-07-26T23:54:29.244045,"
+        Thanks for shopping with Apple Store!
+        
+        Order Details:
+        Date: 2025-06-26T00:00:00
+        
+        Items Ordered:
+        1. Water Bill   $50.0
+        2. Electricity Bill   $100.0
+        
+        Total: $150.0
+        ",3758457b-1192-4347-b7a9-8c0b1acf1ca6,3758457b-1192-4347-b7a9-8c0b1acf1ca6,['Spent $150.0 on Utilities items from Apple Store.'],"[{'name': 'Water Bill', 'price': 50.0}, {'name': 'Electricity Bill', 'price': 100.0}]",Apple Store,True,2025-06-26T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Apple Store@receipts.com,email,Order Confirmation,150.0
+Dining,2025-07-26T23:54:29.244071,"
+        Thanks for shopping with Best Buy!
+        
+        Order Details:
+        Date: 2025-06-30T00:00:00
+        
+        Items Ordered:
+        1. Lunch   $30.0
+        2. Dinner   $50.0
+        
+        Total: $80.0
+        ",15562642-c8cf-410e-b33d-8ac9de346aa5,15562642-c8cf-410e-b33d-8ac9de346aa5,['Spent $80.0 on Dining items from Best Buy.'],"[{'name': 'Lunch', 'price': 30.0}, {'name': 'Dinner', 'price': 50.0}]",Best Buy,True,2025-06-30T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Best Buy@receipts.com,email,Order Confirmation,80.0
+Health,2025-07-26T23:54:29.244097,"
+        Thanks for shopping with Lyft!
+        
+        Order Details:
+        Date: 2025-06-26T00:00:00
+        
+        Items Ordered:
+        1. Vitamins   $15.99
+        2. Protein Powder   $29.99
+        
+        Total: $45.98
+        ",2e53e2ea-c553-4780-8c68-b4edf93abe6f,2e53e2ea-c553-4780-8c68-b4edf93abe6f,['Spent $45.98 on Health items from Lyft.'],"[{'name': 'Vitamins', 'price': 15.99}, {'name': 'Protein Powder', 'price': 29.99}]",Lyft,True,2025-06-26T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Lyft@receipts.com,email,Order Confirmation,45.98
+Electronics,2025-07-26T23:54:29.244123,"
+        Thanks for shopping with Best Buy!
+        
+        Order Details:
+        Date: 2025-07-16T00:00:00
+        
+        Items Ordered:
+        1. Smartphone   $699.99
+        2. Bluetooth Headphones   $79.99
+        
+        Total: $779.98
+        ",f4881ad7-7d99-4ebd-8321-03e379e10437,f4881ad7-7d99-4ebd-8321-03e379e10437,['Spent $779.98 on Electronics items from Best Buy.'],"[{'name': 'Smartphone', 'price': 699.99}, {'name': 'Bluetooth Headphones', 'price': 79.99}]",Best Buy,True,2025-07-16T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Best Buy@receipts.com,email,Order Confirmation,779.98
+Dining,2025-07-26T23:54:29.244151,"
+        Thanks for shopping with Amazon!
+        
+        Order Details:
+        Date: 2025-01-11T00:00:00
+        
+        Items Ordered:
+        1. Dinner   $50.0
+        2. Lunch   $30.0
+        
+        Total: $80.0
+        ",c61b9a18-5650-4667-bd67-4c7ec621ff90,c61b9a18-5650-4667-bd67-4c7ec621ff90,['Spent $80.0 on Dining items from Amazon.'],"[{'name': 'Dinner', 'price': 50.0}, {'name': 'Lunch', 'price': 30.0}]",Amazon,True,2025-01-11T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Amazon@receipts.com,email,Order Confirmation,80.0
+Health,2025-07-26T23:54:29.244177,"
+        Thanks for shopping with Whole Foods!
+        
+        Order Details:
+        Date: 2025-03-25T00:00:00
+        
+        Items Ordered:
+        1. Vitamins   $15.99
+        2. Protein Powder   $29.99
+        
+        Total: $45.98
+        ",18c0cd0d-75b9-46ca-b2fa-a91214d95578,18c0cd0d-75b9-46ca-b2fa-a91214d95578,['Spent $45.98 on Health items from Whole Foods.'],"[{'name': 'Vitamins', 'price': 15.99}, {'name': 'Protein Powder', 'price': 29.99}]",Whole Foods,True,2025-03-25T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Whole Foods@receipts.com,email,Order Confirmation,45.98
+Electronics,2025-07-26T23:54:29.244204,"
+        Thanks for shopping with Whole Foods!
+        
+        Order Details:
+        Date: 2025-03-23T00:00:00
+        
+        Items Ordered:
+        1. Smartphone   $699.99
+        2. Bluetooth Headphones   $79.99
+        
+        Total: $779.98
+        ",4ad69d9a-ddc9-4870-b187-a08eaa82c686,4ad69d9a-ddc9-4870-b187-a08eaa82c686,['Spent $779.98 on Electronics items from Whole Foods.'],"[{'name': 'Smartphone', 'price': 699.99}, {'name': 'Bluetooth Headphones', 'price': 79.99}]",Whole Foods,True,2025-03-23T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Whole Foods@receipts.com,email,Order Confirmation,779.98
+Shopping,2025-07-26T23:54:29.244232,"
+        Thanks for shopping with Walmart!
+        
+        Order Details:
+        Date: 2025-02-05T00:00:00
+        
+        Items Ordered:
+        1. Shoes   $89.99
+        2. Watch   $199.99
+        
+        Total: $289.98
+        ",809412c8-56b4-4065-a43b-b78597dae3e2,809412c8-56b4-4065-a43b-b78597dae3e2,['Spent $289.98 on Shopping items from Walmart.'],"[{'name': 'Shoes', 'price': 89.99}, {'name': 'Watch', 'price': 199.99}]",Walmart,True,2025-02-05T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Walmart@receipts.com,email,Order Confirmation,289.98
+Transport,2025-07-26T23:54:29.244260,"
+        Thanks for shopping with Uber!
+        
+        Order Details:
+        Date: 2025-02-14T00:00:00
+        
+        Items Ordered:
+        1. Taxi Ride   $20.0
+        2. Bus Pass   $30.0
+        
+        Total: $50.0
+        ",1f952840-5925-48e9-a236-9711f7f63aeb,1f952840-5925-48e9-a236-9711f7f63aeb,['Spent $50.0 on Transport items from Uber.'],"[{'name': 'Taxi Ride', 'price': 20.0}, {'name': 'Bus Pass', 'price': 30.0}]",Uber,True,2025-02-14T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Uber@receipts.com,email,Order Confirmation,50.0
+Dining,2025-07-26T23:54:29.244286,"
+        Thanks for shopping with Target!
+        
+        Order Details:
+        Date: 2025-01-06T00:00:00
+        
+        Items Ordered:
+        1. Dinner   $50.0
+        2. Lunch   $30.0
+        
+        Total: $80.0
+        ",ef2c3e6c-b810-412c-8229-2227692b0e0f,ef2c3e6c-b810-412c-8229-2227692b0e0f,['Spent $80.0 on Dining items from Target.'],"[{'name': 'Dinner', 'price': 50.0}, {'name': 'Lunch', 'price': 30.0}]",Target,True,2025-01-06T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Target@receipts.com,email,Order Confirmation,80.0
+Dining,2025-07-26T23:54:29.244322,"
+        Thanks for shopping with Apple Store!
+        
+        Order Details:
+        Date: 2025-02-25T00:00:00
+        
+        Items Ordered:
+        1. Dinner   $50.0
+        2. Lunch   $30.0
+        
+        Total: $80.0
+        ",6ec2f88a-a569-49c9-913c-42829168b1f7,6ec2f88a-a569-49c9-913c-42829168b1f7,['Spent $80.0 on Dining items from Apple Store.'],"[{'name': 'Dinner', 'price': 50.0}, {'name': 'Lunch', 'price': 30.0}]",Apple Store,True,2025-02-25T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Apple Store@receipts.com,email,Order Confirmation,80.0
+Health,2025-07-26T23:54:29.244349,"
+        Thanks for shopping with Whole Foods!
+        
+        Order Details:
+        Date: 2025-02-06T00:00:00
+        
+        Items Ordered:
+        1. Vitamins   $15.99
+        2. Protein Powder   $29.99
+        
+        Total: $45.98
+        ",002520fb-b673-4077-8f8d-6f4148a3aa85,002520fb-b673-4077-8f8d-6f4148a3aa85,['Spent $45.98 on Health items from Whole Foods.'],"[{'name': 'Vitamins', 'price': 15.99}, {'name': 'Protein Powder', 'price': 29.99}]",Whole Foods,True,2025-02-06T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Whole Foods@receipts.com,email,Order Confirmation,45.98
+Clothing,2025-07-26T23:54:29.244378,"
+        Thanks for shopping with Uber!
+        
+        Order Details:
+        Date: 2025-01-31T00:00:00
+        
+        Items Ordered:
+        1. T-Shirt   $19.99
+        2. Jeans   $49.99
+        
+        Total: $69.98
+        ",94e31cd4-9fdd-4ad1-b379-fe9d2b9ca229,94e31cd4-9fdd-4ad1-b379-fe9d2b9ca229,['Spent $69.98 on Clothing items from Uber.'],"[{'name': 'T-Shirt', 'price': 19.99}, {'name': 'Jeans', 'price': 49.99}]",Uber,True,2025-01-31T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Uber@receipts.com,email,Order Confirmation,69.98
+Utilities,2025-07-26T23:54:29.244405,"
+        Thanks for shopping with Whole Foods!
+        
+        Order Details:
+        Date: 2025-03-07T00:00:00
+        
+        Items Ordered:
+        1. Electricity Bill   $100.0
+        2. Water Bill   $50.0
+        
+        Total: $150.0
+        ",1af7bcc8-6984-43f5-845c-9ce6de654734,1af7bcc8-6984-43f5-845c-9ce6de654734,['Spent $150.0 on Utilities items from Whole Foods.'],"[{'name': 'Electricity Bill', 'price': 100.0}, {'name': 'Water Bill', 'price': 50.0}]",Whole Foods,True,2025-03-07T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Whole Foods@receipts.com,email,Order Confirmation,150.0
+Shopping,2025-07-26T23:54:29.244439,"
+        Thanks for shopping with Costco!
+        
+        Order Details:
+        Date: 2025-07-11T00:00:00
+        
+        Items Ordered:
+        1. Watch   $199.99
+        2. Shoes   $89.99
+        
+        Total: $289.98
+        ",769b2b0d-f5b4-455d-b27a-5b9262c832e0,769b2b0d-f5b4-455d-b27a-5b9262c832e0,['Spent $289.98 on Shopping items from Costco.'],"[{'name': 'Watch', 'price': 199.99}, {'name': 'Shoes', 'price': 89.99}]",Costco,True,2025-07-11T00:00:00,"['Look for discounts.', 'Consider loyalty programs for savings.']",Costco@receipts.com,email,Order Confirmation,289.98
+Shopping,2025-07-27 01:58:25.736649,"
+                Your order has been shipped!
+                
+                Order #: 123-4567890-1234567
+                Order Date: 2025-07-26 20:55:23
+                
+                Items Ordered:
+                1. Wireless Bluetooth Headphones   $79.99
+                2. Phone Case - Clear              $12.99
+                3. USB Cable - 6ft                 $8.99
+                
+                Subtotal:                         $101.97
+                Shipping:                          FREE
+                Tax:                              $8.16
+                Total:                           $110.13
+                
+                Expected Delivery: Tomorrow
+                ",email-4b510502-7ded-49e8-9434-c946f88d2a51,fb7f7249-5437-4231-b39d-c4441f2e4f19,"['Purchased electronics accessories and a phone case from Amazon.', 'Order placed late in the evening (8:55 PM).']","[{'name': 'Wireless Bluetooth Headphones', 'price': 79.99, 'quantity': 1}, {'name': 'Phone Case - Clear', 'price': 12.99, 'quantity': 1}, {'name': 'USB Cable - 6ft', 'price': 8.99, 'quantity': 1}]",Amazon,True,2025-07-26 20:55:23.430351,"['Consider waiting for sales events like Black Friday or Cyber Monday to purchase electronics for potential discounts.', 'Explore generic brands for phone cases and USB cables, which can often provide similar functionality at a lower price.']",orders@amazon.com,email,Your Amazon Order Confirmation,110.13
+Entertainment,2025-07-27 02:02:35.100509,"
+                Your Netflix subscription has been renewed.
+                
+                Plan: Premium (4 screens, Ultra HD)
+                Billing Date: 2025-07-26 02:54:32
+                Next Billing Date: 2025-08-26
+                
+                Amount Charged: $19.99
+                Payment Method: Visa ending in 1234
+                
+                Enjoy your Netflix subscription!
+                ",email-5a4cc42c-1cb4-4075-b98b-c5d7cf10b0c7,9f9b18f7-8fa1-4099-8122-db21fe8e1127,"['Monthly Netflix subscription renewed.', 'Subscribed to the Premium plan.']","[{'name': 'Netflix Premium Subscription', 'price': 19.99, 'quantity': 1}]",Netflix,True,2025-07-26 02:54:32.471351,"[""Consider downgrading to a lower-tier plan if you don't need 4 screens or Ultra HD to save money."", 'Explore sharing the Premium plan with family or friends to split the cost.']",noreply@netflix.com,email,Netflix - Your monthly bill,19.99
